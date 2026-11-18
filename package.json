@@ -1,7 +1,7 @@
 {
   "name": "lab5",
   "version": "1.0.0-SNAPSHOT",
-  "description": "Лабораторная работа 5 ",
+  "description": "Лабораторная работа 5 и 6",
   "main": "index.js",
   "author": "Балашков М. И. <m.i.balashkov@students.psu.by>",
   "license": "MIT",
@@ -12,13 +12,15 @@
   "scripts": {
     "start": "node index.js",
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
-    "build": "pkg . --targets node18-win-x64 --output dist/lab5.exe"
+    "build": "pkg . --targets node18-win-x64 --output dist/lab5.exe",
+    "test": "jest"
   },
   "dependencies": {
     "winston": "^3.13.0",
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "pkg": "^5.8.1"
   },
   "pkg": {

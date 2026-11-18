@@ -49,4 +49,7 @@ function main() {
     logger.info('== Завершение работы ==');
 }
 
-main();
+if (require.main === module) {
+    main();
+}
+module.exports = { validateUser, UserSchema, logger };
