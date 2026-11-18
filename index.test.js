@@ -41,6 +41,6 @@ describe('Валидация пользователя (Zod)', () => {
 
     test('сумма 2 + 2 равна 4', () => {
         const result = 2 + 2;
-        expect(result).toBe(5);
+        expect(result).toBe(4);
     });
 });
