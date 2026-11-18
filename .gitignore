@@ -4,6 +4,12 @@ out/
 !**/src/test/**/out/
 .kotlin
 
+node_modules/
+.idea/
+*.iml
+dist/
+app.log
+
 ### Eclipse ###
 .apt_generated
 .classpath
